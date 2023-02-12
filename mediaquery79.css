@@ -1,0 +1,26 @@
+@media (max-width:600px){
+
+
+/*
+
+ phones 
+
+ */
+body{
+
+  background-color: red;
+
+}
+    div::after{
+
+     content: 'This is mobile compatible';
+
+    }
+
+
+div{
+    text-align: center;
+    font-size: x-large;
+}
+
+}

@@ -1,0 +1,28 @@
+/* Des sel */
+main p{
+    color: brown;
+}
+
+/* Child Sel */ 
+h1 > p{
+    color: blue;
+} 
+
+/* Adj sibling selector */ 
+
+section + p
+{
+    color: green;
+} 
+
+section ~ p
+{
+    color: yellow;
+} 
+
+[target="_blank"]
+{
+    color: pink; 
+    text-decoration: none;
+}
+
